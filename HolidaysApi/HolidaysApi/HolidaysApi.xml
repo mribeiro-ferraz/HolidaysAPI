@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HolidaysApi</name>
+    </assembly>
+    <members>
+        <member name="M:HolidaysApi.Controllers.HolidaysController.GetAllHolidays">
+            <summary>
+            Get All Holidays
+            </summary>
+        </member>
+        <member name="M:HolidaysApi.Controllers.HolidaysController.GetAllHolidaysByDate(System.Int32,System.Int32)">
+            <summary>
+            Get Holidays By Date
+            </summary>
+            <param name="month"></param>
+            <param name="year"></param>
+        </member>
+        <member name="M:HolidaysApi.Controllers.HolidaysController.PutHolidays(System.Int64,HolidaysApi.Models.Holidays)">
+            <summary>
+            Update Holiday
+            </summary>
+            <param name="id"></param>
+            <param name="holidays"></param>
+        </member>
+        <member name="M:HolidaysApi.Controllers.HolidaysController.PostHolidays(HolidaysApi.Models.Holidays)">
+            <summary>
+            Insert Holiday
+            </summary>
+        </member>
+        <member name="M:HolidaysApi.Controllers.HolidaysController.DeleteHolidays(System.Int64)">
+            <summary>
+            Delete Holiday
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
